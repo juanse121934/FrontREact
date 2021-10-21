@@ -1,0 +1,154 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.footer {
+  background:rgba(0, 0, 0, 0.637);
+  padding: 20px 20px 20px;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-family: 'Roboto', sans-serif;
+  height: 300px;
+  border-top: 5px solid rgba(0, 0, 0, 0.705);
+  border-radius: 10px;
+  margin-top: 20px;
+  
+  
+}
+
+.partFooter {
+  width: 30%;
+  text-align: center;
+  margin: 20px;
+  margin-top: 35px;
+  
+ 
+}
+
+
+.partFooter h5 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  text-shadow:0px 0px 10px rgb(0, 181, 253); 
+  box-shadow:3px 3px 3px rgb(149, 183, 255);
+  border-radius: 5px;
+  
+}
+
+.partFooter h4 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  text-shadow:0px 0px 10px rgb(0, 181, 253); 
+  box-shadow:3px 3px 3px rgb(149, 183, 255);
+  border-radius: 5px;
+  
+}
+
+.partFooter a {
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 300;
+  transition: color .3s ease-in-out;
+  margin-bottom: 15px;
+ 
+}
+.partFooter .fa-facebook-f:hover{
+  background: #3b5998;
+  color: white;
+}
+
+/* ESTA ES LA CLASE DE LOS NUEVOS ICONOS SOCIALES */
+.anticon{
+  font-size: 20px;
+  display: inline-block;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+ 
+}
+.partFooter .fa-instagram:hover{
+  background: linear-gradient(to top right, 
+  #fcde30, 
+  #e9712a, 
+  #d2313b, 
+  #ae4198, 
+  #7540a1, 
+  #5443a8);
+  color: white;
+}
+.partFooter .fa-whatsapp:hover{
+  background: #009231;
+  color: white;
+}
+.partFooter .fa-envelope:hover{
+  background: #d80202;
+  color: white;
+}
+.redes{
+  margin-right: 50px;
+}
+
+.partFooter img {
+  width: 70%;
+}
+
+.social-media i {
+  font-size: 20px;
+  display: inline-block;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  line-height: 36px;
+  cursor: pointer;
+  margin-top: 20px;
+  text-align: center;
+  transition: all ease-in-out .3s;
+  margin-right: 5px;
+}
+.partFooter>h1{
+  color: #ffffff;
+  margin-top: -20px;
+  box-shadow:3px 3px 3px rgb(149, 183, 255);
+
+}
+.partFooter b{
+  color:#ffffff
+
+}
+.partFooter p{
+
+  font-size: 17px;
+  text-align: justify;
+  color: #ffffff;
+  font-weight: 300;
+  display: inline-block;
+  padding: 10px;
+}
+
+.container-footer hr{
+
+  border: none;
+  height: 2px;
+  background: rgb(149, 183, 255);
+  width: 900px;
+}
+.container-footer h4{
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(149, 183, 255);
+  font-weight: bold;
+}

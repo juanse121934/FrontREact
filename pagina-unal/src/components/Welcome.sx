@@ -1,0 +1,16 @@
+import "./styles/Welcome.css";
+import Nav from "./components/Nav";
+import Centro from "./components/Centro";
+import Footer from "./components/Footer";
+
+function Welcome() {
+  return (
+    <div className="Welcome">
+      <Nav />
+      <Centro />
+      <Footer />
+    </div>
+  );
+}
+
+export default Welcome;
