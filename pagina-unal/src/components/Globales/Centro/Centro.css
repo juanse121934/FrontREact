@@ -4,7 +4,8 @@
 }
 
 .contenido-inicio{
-  width: 100%;
+  margin: 0 13px 0;
+  width: 98%;
   height: 500px;
   border-top: 10px solid rgba(0, 0, 0, 0.575);
   border-radius: 20px;
@@ -53,5 +54,13 @@ color: blanchedalmond;
 
 }
 .btn-menu{
-  background: #de1f1f;
+  margin-top: 10px;
+  border-color:#ac0000;
+  padding: auto;
+  width: 100px;
+  height: 30px;
+  background: #ac0000;
+  color: white;
+ 
+  
 }

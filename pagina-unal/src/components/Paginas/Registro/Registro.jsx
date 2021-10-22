@@ -56,7 +56,7 @@ const Registro = ({ registro, noRegistro }) => {
 
 
       <div className="registro">
-        <h2>Nombre de Usuario</h2>
+      
         <input
           name="username"
           type="text"
@@ -64,7 +64,7 @@ const Registro = ({ registro, noRegistro }) => {
           placeholder="Ingrese su nombre de usuario"
         />
 
-        <h2>Nombre</h2>
+       
         <input
           name="name"
           type="text"
@@ -72,7 +72,7 @@ const Registro = ({ registro, noRegistro }) => {
           placeholder="Ingrese su nombre"
         />
 
-        <h2>Apellido</h2>
+  
         <input
           name="last_name"
           type="text"
@@ -80,7 +80,7 @@ const Registro = ({ registro, noRegistro }) => {
           placeholder="Ingrese su Apellido"
         />
 
-        <h2>Correo electronico</h2>
+       
         <input
           name="email"
           type="text"
@@ -88,7 +88,7 @@ const Registro = ({ registro, noRegistro }) => {
           placeholder="Ingrese su Email"
         />
 
-        <h2>Contraseña</h2>
+        
         <input
           name="password"
           type="text"

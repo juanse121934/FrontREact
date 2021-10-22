@@ -37,13 +37,17 @@ function Footer() {
       <div className="partFooter">
         <h5>INFORMACIÓN DE CONTACTO</h5>
         <link rel="stylesheet" href="" />       
-          <FontAwesomeIcon icon={faMapMarkerAlt} /> Medellín: Carrera 45 #49-60
+          <FontAwesomeIcon icon={faMapMarkerAlt} /> Calle 44 # 45-67 
+          <br />
+          <br />
         
         <link rel="stylesheet" href="" />   
-          <FontAwesomeIcon icon={faHeadset} /> + 57 313 3189354
+          <FontAwesomeIcon icon={faHeadset} /> (57) + 316 5000
+          <br />
+          <br />
         
         <link rel="stylesheet" href="" />   
-          <FontAwesomeIcon icon={faEnvelope} /> AY DCD.Colombia@gmail.com
+          <FontAwesomeIcon icon={faEnvelope} /> misiontic2022@gmail.com
         
       </div>
       <div className="partFooter">
