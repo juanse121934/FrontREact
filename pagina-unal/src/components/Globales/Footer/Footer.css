@@ -63,7 +63,7 @@
   color: white;
  
 }
-.social-media antico-facebook:hover{
+.partFooter .anticon-facebook:hover{
   background: #3b5998;
   color: white;
 }
@@ -80,7 +80,7 @@
   
  
 }
-.partFooter .fa-instagram:hover{
+.partFooter .anticon-instagram:hover{
   background: linear-gradient(to top right, 
   #fcde30, 
   #e9712a, 
@@ -90,11 +90,12 @@
   #5443a8);
   color: white;
 }
-.social-media .anticon:hover{
+.partFooter .anticon-whats-app:hover{
   background: #009231;
   color: white;
 }
-.partFooter .fa-envelope:hover{
+
+.partFooter .anticon-mail:hover{
   background: #d80202;
   color: white;
 }
