@@ -1,8 +1,33 @@
-// import React from 'react';
-// import './Menu.css'
+import React from 'react';
+import './Menu.css'
 
-// function Menu () {
+import Cards from '../../Globales/Cards/Cards.jsx'
+import Nav from '../../Globales/Nav/Nav.jsx'
+import Footer from '../../Globales/Footer/Footer.jsx'
+
+
+
+
+function Menu () {
   
+  
+  return (
+    <div className="Menu">
+      <Nav />   
+      <Cards />
+      <Footer/>
+    </div>
+  );
+
+}
+
+export default Menu;
+
+
+
+
+
+
 //   return (
 //     <div class="cuerpo-menu">
 //         <section class="fondo-slider">
@@ -88,6 +113,3 @@
 //     </section>
 //     </div>
 //   );
-// }
-
-// export default Menu;

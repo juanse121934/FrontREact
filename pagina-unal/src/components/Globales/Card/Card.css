@@ -1,0 +1,56 @@
+
+.Card{  
+      width: 220px;
+      height: 340px;
+      margin-top: 5%;
+      background: rgba(255, 255, 255, 0.545);
+      border-radius: 10px;
+      text-align: center;
+      border-top: 6px solid rgba(0, 0, 0, 0.651);
+      border-left: 6px solid rgba(255, 255, 255, 0.658);
+      box-shadow: 0 0px 10px rgb(0, 0, 0);
+      
+}
+.Card:hover{
+      width: 255px;
+      height: 385px;
+      background: rgba(255, 255, 255, 0.845);
+}
+h4{
+      margin-top: 5%;
+}
+h3{
+      margin-top: 5%;
+}
+
+img{
+     margin-top: 10px;
+     width: 80%;
+     height: 50%px;
+     border-radius: 10px;
+   }
+
+
+   button{
+    margin: 8px 0 20px 0;
+    width: 110px;
+    display: inline-block;
+    background: rgb(175, 0, 0);
+    text-align: center;
+    color: #fff;
+    padding: 12px 0;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 20px;
+    border-top: 3px solid rgba(0, 0, 0, 0.651);
+    border-left: 3px solid rgba(0, 0, 0, 0.658);   
+    cursor: pointer;
+  
+   }
+   button:hover{
+    box-shadow: 0 8px 32px rgba(252, 252, 252, 0.589);
+    letter-spacing: .2rem;
+    width: 120px;
+   } 

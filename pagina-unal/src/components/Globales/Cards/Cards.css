@@ -1,0 +1,10 @@
+.Cards{ 
+  margin: 0 auto;
+  width: 70%;
+  height: 90vh;
+  margin-top: 1%;
+  background-color: rgba(0, 0, 0, 0.619);
+  justify-items: center;   
+  display: grid;  
+  grid-template-columns: 1fr 1fr 1fr 1fr;    
+}
