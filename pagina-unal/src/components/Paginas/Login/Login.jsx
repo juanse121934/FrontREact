@@ -51,34 +51,32 @@ const Login = ({registro, noRegistro}) => {
         aux.classList.add("ok")
       ) : (
         <div className="login">
-          <h2>Hola ingresa tus credenciales</h2>
+          <h2>Iniciar sesión</h2>
 
           {hasError && (
             <label className="label-alerta">No has ingresado tu nombre</label>
           )}
-
+  <br />
           <div className="username">
-            <h2>Nombre de Usuario</h2>
             <input
               name="username"
               type="text"
               onChange={(e) => handleUsername(e, "username")}
-              placeholder="username"
+              placeholder="Nombre de usuario"
             />
           </div>
 
           <div className="password">
-            <h2>Contraseña</h2>
             <input
               name="password"
               type="text"
               onChange={(e) => handlePassword(e, "password")}
-              placeholder="username"
+              placeholder="Contraseña"
             />
           </div>
 
           <div className="ingresar">
-            <button onClick={handleOnClick}>INGRESAR</button>
+            <button onClick={handleOnClick}>Ingresar</button>
           </div>
 
           <br />
@@ -91,7 +89,7 @@ const Login = ({registro, noRegistro}) => {
                 noRegistro(false);
               }}
             >
-              REGISTRESE
+              Registrarse
             </button>
           </div>
         </div>
