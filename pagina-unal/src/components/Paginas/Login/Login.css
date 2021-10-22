@@ -1,0 +1,64 @@
+
+/* NO TOCAR ESTE CODIGO */
+
+.login-contenedor{  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.619);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-contenedor.ok{
+  visibility: hidden;
+  transition: .8s ease all;
+  transform: scale(0.1);
+}
+.label-alerta{  
+  font-size: 1.8em;
+  width: fit-content;
+  height: fit-content;
+  padding:5px;
+  box-sizing: border-box;
+  margin-bottom: 1%;
+}
+
+
+
+
+
+.login{
+  
+  background-color: rgba(160, 157, 157, 0.801);
+  box-shadow: 10px 10px 5px 5px rgba(0,0,0,0.6);
+  font-family:Arial, Helvetica, sans-serif;
+  padding: 20px;
+  text-align: center;
+  width: 700px;
+  height: 400px;  
+  
+}
+
+/* TU CODIGO VA A PARTIR DE ACA
+INPUT 
+BOTONES
+
+*/
+
+input{
+  width: 200px;
+  height: 70px;
+}
+button{
+  width: 120px;
+  height: 50px;
+  background: rebeccapurple;
+}

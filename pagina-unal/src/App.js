@@ -1,11 +1,12 @@
+import './App.css';
+import Inicio from './components/Paginas/Inicio/Inicio.jsx'
 
-import './styles/App.css';
-import Login from './components/Login';
 
 function App() {
   return (
-    <div className="App">    
-      < Login />      
+    <div className="App">
+      <Inicio />
+
     </div>
   );
 }
